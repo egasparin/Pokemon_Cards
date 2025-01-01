@@ -2,7 +2,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 import styles from "../app/styles/Layout.module.css";
-import "./globals.css";
+import "./styles/globals.css";
 
 export default function RootLayout({ children }) {
   return (
