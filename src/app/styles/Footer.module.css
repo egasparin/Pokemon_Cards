@@ -1,0 +1,21 @@
+@import "../global_colors.css";
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1em;
+  border-top: 2px solid #111;
+  background-color: var(--secundary_background_color);
+  color: var(--secundary_font_color);
+}
+
+.footer p {
+  margin-right: 1em;
+  padding: 5px;
+}
+
+.footer p span {
+  font-weight: bold;
+  margin-right: 0.5em;
+}

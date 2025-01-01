@@ -1,0 +1,42 @@
+@import "../global_colors.css";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.2em;
+  margin-bottom: 2em;
+  border-bottom: 2px solid #111;
+  background-color: var(--secundary_background_color);
+  color: var(--secundary_font_color);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 1em;
+}
+
+.link_itens {
+  display: flex;
+  list-style: none;
+}
+
+.link_itens li {
+  margin-right: 1em;
+}
+
+.link_itens a {
+  color: var(--secundary_font_color);
+  text-decoration: none;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.link_itens a:hover {
+  border-color: var(--secundary_font_color);
+}

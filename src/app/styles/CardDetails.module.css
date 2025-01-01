@@ -1,0 +1,133 @@
+.details_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 300px;
+  background-color: var(--primary_background_color);
+  color: var(--primary_font_color);
+}
+
+.details_container h1 {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  background-color: var(--secundary_background_color);
+  color: var(--secundary_font_color);
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  width: fit-content;
+  min-width: 200px;
+  border-radius: 0.5em;
+  border: 2px solid var(--primary_font_color);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.details_container h3,
+.details_container h4,
+.details_container p {
+  padding: 0.4em;
+  margin: 0;
+  text-align: center;
+  min-width: 200px;
+}
+
+.phisical_dates {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  align-items: center;
+}
+
+.right_border {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.types_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  padding: 0.5em 1em;
+  color: #fff;
+  background-color: #000;
+  margin-right: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.type_normal {
+  background-color: #aa9;
+}
+
+.type_fire {
+  background-color: #f42;
+}
+
+.type_water {
+  background-color: #39f;
+}
+
+.type_eletric {
+  background-color: #fc3;
+}
+
+.type_grass {
+  background-color: #7c5;
+}
+
+.type_ice {
+  background-color: #6cf;
+}
+
+.type_fighting {
+  background-color: #b54;
+}
+
+.type_poison {
+  background-color: #a59;
+}
+
+.type_ground {
+  background-color: #db5;
+}
+
+.type_flying {
+  background-color: #89f;
+}
+
+.type_psychic {
+  background-color: #f59;
+}
+
+.type_bug {
+  background-color: #ab2;
+}
+
+.type_rock {
+  background-color: #ba6;
+}
+
+.type_ghost {
+  background-color: #66b;
+}
+
+.type_dragon {
+  background-color: #76e;
+}
+
+.type_dark {
+  background-color: #754;
+}
+
+.type_steel {
+  background-color: #aab;
+}
+
+.type_fairy {
+  background-color: #e9e;
+}

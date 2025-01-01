@@ -1,0 +1,25 @@
+@import "../global_colors.css";
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.central_content {
+  /* para que o conteudo central do site ocupe todo o espaço
+  entre o navbar e footer, empurrando ambos para começo/fim da 
+  pagina, use o parametro flex */
+  flex: 1;
+}

@@ -1,0 +1,28 @@
+@import "../global_colors.css";
+
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.title_container h1 {
+  color: var(--hover_font_color);
+  text-align: center;
+  font-size: 3em;
+  margin-right: 0.5em;
+}
+
+.title_container h1 span {
+  color: var(--primary_font_color);
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
